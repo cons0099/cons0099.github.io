@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;
+    font-size: 18px;
+} 
+
+h1, h2, footer{
+    background-color: #f5608d;
+}
+
+.site-title{
+    color: #643A16;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+#Hobbies{
+    list-style-type: square;
+}
+
+li:nth-child(odd){
+    background: #BC74B3;
+}
+
+a{
+    text-decoration: none;
+    background: #83B692;
+}
+
