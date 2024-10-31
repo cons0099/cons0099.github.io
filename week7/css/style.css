@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+    /* box-sizing: border-box; */
+}
+main{
+    width: 350px;
+}
+a{
+    visibility: hidden;
+    width: 300px
+}
+.container{
+    width: 500px;
+    margin: auto;
+    border: 2px solid red;
+}
+img{
+    width: 200px;
+    float: left;
+}

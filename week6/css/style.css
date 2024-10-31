@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+html{
+    font-size: 20px;
+}
+body{
+    font-family: "Roboto Mono", monospace;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+header{
+    background-color: #333;
+    color: aliceblue;
+    padding: 5rem;
+    background-image: url("../images/bread.jpg");
+    background-repeat: no-repeat;
+    /* x-position y position */
+    /* left center right, */
+    background-position: top center;
+    background-size: cover;
+    /* margin: 2rem; */
+}
+h1{
+    text-transform: uppercase;
+}
+ul{
+    font-size: 10px;
+}
+li{
+    /* px,rem = root level default 16 or em = font size use rem and em in websites*/
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+    line-height: 1.4;
+    font-weight: 900;
+    /* width: 50%; */
+    /* display: inline; */
+}
